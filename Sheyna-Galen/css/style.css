@@ -1,0 +1,190 @@
+* {
+  -moz-box-sizing: border-box;   /* Firefox 1, probably can drop this */
+  -webkit-box-sizing: border-box;   /* Safari 3-4, also probably droppable */
+  box-sizing: border-box;   /* Everything else */
+}
+
+body{
+  font-size: 1em;
+}
+
+.clearfix:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.headline-subhead {
+  text-align: center;
+  margin: 3% 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: gray;
+}
+
+/* nav */
+
+.main-nav {
+  width: 100%;
+  height: 3em;
+  padding: 5% 0;
+  text-align: center;
+}
+
+.main-nav__item {
+  display: inline-block;
+}
+
+.main-nav__item a {
+  color: white;
+  margin: 0 1em;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+/* hero */
+
+.hero {
+  background-color: MediumOrchid;
+  height: 35%;
+  padding: 5% 0;
+  text-align: center;
+}
+
+.hero__title {
+  color: white;
+  font-size: 5em;
+  width: 100%;
+}
+
+.hero__text {
+  color: white;
+  font-size: 1em;
+  line-height: 1.5em;
+  width: 600px;
+  margin: auto;
+}
+
+/* feature */
+
+.feature {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.feature__box {
+  padding: 3%;
+  width: 100%;
+  color: white;
+  display: inline-block;
+  font-size: 1em;
+}
+
+.feature__box h2 {
+  font-size: 1.3em;
+}
+
+.feature__box h3 {
+  margin: 0.4em auto;
+}
+
+.feature__box img{
+  margin: 0.6em auto -0.6em auto;
+}
+
+/* profile section */
+
+.profile {
+  display: inline-block ;
+  padding: 1%;
+  color: gray;
+  margin-bottom: 20%;
+}
+
+.profile figcaption {
+  margin-top: 3px;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+/* color */
+
+.color1 {
+  background-color: SkyBlue;
+}
+
+.color2 {
+  background-color: LemonChiffon;
+  color: gray;
+}
+
+.color3 {
+  background-color: MediumSeaGreen;
+}
+
+/* form section */
+
+.sign-up{
+  text-align: center;
+  display: block;
+  font-size: 1.25em;
+  cursor: pointer;
+  height: 60px;
+  margin: 10% 0;
+}
+
+.sign-up__field {
+  margin-top: 20px;
+  width: 275px;
+  height: 35px;
+  padding: 2px;
+}
+
+.sign-up__btn {
+  background-color: MediumOrchid;
+  width: 80px;
+  height: 35px;
+  color: white;
+}
+
+/* Layout */
+
+.col_3_of_3 {
+  width: 100%;
+}
+
+.col_1_of_3 {
+  width: 25.25%;
+}
+
+.col_4_of_4 {
+  width: 100%;
+}
+
+.col_1_of_4 {
+  width: 21%;
+}
+
+/*  State */
+
+@media only screen and (max-width: 480px) {
+  .col_3_of_3 {
+    width: 100%;
+  }
+
+  .col_1_of_3 {
+    width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+  .col_4_of_4 {
+    width: 100%;
+    }
+  .col_1_of_4 {
+    width: 100%;
+    }
+}

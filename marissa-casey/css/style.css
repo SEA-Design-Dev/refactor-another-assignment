@@ -1,0 +1,71 @@
+body {
+  font-family: 'Bubbler One', sans-serif;
+  background-color: #fff;
+  color: rgb(84, 89, 70);
+  font-size: 100%;
+  text-align: center;
+}
+
+.buildingBlock {
+  display: block;
+  margin: 0;
+  padding: 2% 15% 2% 15%;
+}
+
+.buildingBlock--bottom {
+  background-color: rgb(209, 213, 192);
+}
+
+.indexFigureHero {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 3.8em;
+  margin: 3% auto 2% auto;
+  color: rgb(168, 172, 138);
+}
+
+h2 {
+  font-size: 1.6em;
+  margin: 0.5em auto 0.3em auto;
+}
+
+ul {
+  margin: 4% auto 1% auto;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 2em;
+  margin: 0% 3%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(84, 89, 70);
+}
+
+a:hover {
+  color: #93315a;
+}
+
+.preview {
+  display: inline-block;
+  position: relative;
+  margin: 3%;
+  width: 220px;
+  font-size: 1em;
+}
+
+.preview__figure-image {
+  width: 220px;
+}
+
+#googleMap {
+  width:220px;
+  height:179px;
+}
